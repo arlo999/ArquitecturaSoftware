@@ -1,0 +1,239 @@
+\hypertarget{class_a_actor}{}\doxysection{AActor Class Reference}
+\label{class_a_actor}\index{AActor@{AActor}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_actor_a679c43bacf3600fa2d7a6ab30e34a8a6}\label{class_a_actor_a679c43bacf3600fa2d7a6ab30e34a8a6}} 
+\mbox{\hyperlink{class_a_actor_a679c43bacf3600fa2d7a6ab30e34a8a6}{AActor}} ()
+\begin{DoxyCompactList}\small\item\em Constructor default para la creacion de la clase. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_a_actor_a273106984204ed6d78ce8d1dea348350}{AActor}} (bool red)
+\begin{DoxyCompactList}\small\item\em Constructor para la creacion de actor tipo rojo o azul con parametro de una bandera. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_a_actor_a4edf303932e222f93b71620be3cf92b4}{AActor}} (std\+::vector$<$ \mbox{\hyperlink{class_a_vector}{AVector}} $>$\+\_\+path)
+\begin{DoxyCompactList}\small\item\em Constructor para la creacion de tipo con un path a seguir. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_actor_a1bfd571e7765673c2a9040be59af610f}\label{class_a_actor_a1bfd571e7765673c2a9040be59af610f}} 
+\mbox{\hyperlink{classsf_1_1_circle_shape}{sf\+::\+Circle\+Shape}} \mbox{\hyperlink{class_a_actor_a1bfd571e7765673c2a9040be59af610f}{get\+Actor}} ()
+\begin{DoxyCompactList}\small\item\em get que sirve para obtener la referencia al actor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_a_vector}{AVector}} \mbox{\hyperlink{class_a_actor_a6dcd6105ef9d22b586d0ca929e3af652}{Seek}} (\mbox{\hyperlink{class_a_vector}{AVector}} target)
+\begin{DoxyCompactList}\small\item\em esta funcion obtiene la fuerza de seek para moverme a un objetivo \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_a_vector}{AVector}} \mbox{\hyperlink{class_a_actor_a03ace99fb36207311953d7ac14d3882e}{flee}} (\mbox{\hyperlink{class_a_vector}{AVector}} target)
+\begin{DoxyCompactList}\small\item\em esta funcion obtiene la fuerza de feek para alejarme de un objetivo \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_a_vector}{AVector}} \mbox{\hyperlink{class_a_actor_a4a5b0629e9a7c76209671136d7c6a785}{Arrived}} (\mbox{\hyperlink{class_a_vector}{AVector}} target)
+\begin{DoxyCompactList}\small\item\em nos da la fuerza para moverme a un objeto con un frenado \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_a_vector}{AVector}} \mbox{\hyperlink{class_a_actor_a224463143f84077876199e3d56317dbf}{Wander}} (\mbox{\hyperlink{class_a_vector}{AVector}} target)
+\begin{DoxyCompactList}\small\item\em Esta funcion nos da la fuerza de wander. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_a_vector}{AVector}} \mbox{\hyperlink{class_a_actor_a8d9b7e5ab7c9c2fd76ac87be6072c4a6}{Purse}} (\mbox{\hyperlink{class_a_vector}{AVector}} target)
+\begin{DoxyCompactList}\small\item\em fuerza de purse con respecto a un target \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_a_vector}{AVector}} \mbox{\hyperlink{class_a_actor_a97eaf7e79092c0e774f424ef7d1b44b0}{Avoide}} (\mbox{\hyperlink{class_a_vector}{AVector}} target)
+\begin{DoxyCompactList}\small\item\em funcion para de Avoide \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_a_vector}{AVector}} \mbox{\hyperlink{class_a_actor_a3dc69f58c569895929a0c353fa10b66e}{Follow\+Path}} (std\+::vector$<$ \mbox{\hyperlink{class_a_vector}{AVector}} $>$ m\+\_\+pointsto\+Follow)
+\begin{DoxyCompactList}\small\item\em funcion para hacer el followpath de una serie de puntos \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_a_actor_a008825e1a0a3a279b66aa9f569e6f701}{Update}} (\mbox{\hyperlink{class_a_vector}{AVector}} target, float delta\+Time)
+\begin{DoxyCompactList}\small\item\em funcion de Update. se actualizan todos los datos de las variables \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_a_actor_a9e95ab2fb8dce2ea126b000e0eb4d20a}{Render}} (\mbox{\hyperlink{classsf_1_1_window}{sf\+::\+Window}} \&window)
+\begin{DoxyCompactList}\small\item\em Funcion de render. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_actor_a9d251e79b29e840e6a7bd57c5e5cc0db}\label{class_a_actor_a9d251e79b29e840e6a7bd57c5e5cc0db}} 
+bool {\bfseries tome} = false
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_actor_a273106984204ed6d78ce8d1dea348350}\label{class_a_actor_a273106984204ed6d78ce8d1dea348350}} 
+\index{AActor@{AActor}!AActor@{AActor}}
+\index{AActor@{AActor}!AActor@{AActor}}
+\doxysubsubsection{\texorpdfstring{AActor()}{AActor()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily AActor\+::\+AActor (\begin{DoxyParamCaption}\item[{bool}]{red }\end{DoxyParamCaption})}
+
+
+
+Constructor para la creacion de actor tipo rojo o azul con parametro de una bandera. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em bool} & bandera para determinar si es rojo o azul el tipo \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_a_actor_a4edf303932e222f93b71620be3cf92b4}\label{class_a_actor_a4edf303932e222f93b71620be3cf92b4}} 
+\index{AActor@{AActor}!AActor@{AActor}}
+\index{AActor@{AActor}!AActor@{AActor}}
+\doxysubsubsection{\texorpdfstring{AActor()}{AActor()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily AActor\+::\+AActor (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{class_a_vector}{AVector}} $>$}]{\+\_\+path }\end{DoxyParamCaption})}
+
+
+
+Constructor para la creacion de tipo con un path a seguir. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em vector$<$\+Avector$>$} & vector con posiciones a seguir por el actor \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_actor_a4a5b0629e9a7c76209671136d7c6a785}\label{class_a_actor_a4a5b0629e9a7c76209671136d7c6a785}} 
+\index{AActor@{AActor}!Arrived@{Arrived}}
+\index{Arrived@{Arrived}!AActor@{AActor}}
+\doxysubsubsection{\texorpdfstring{Arrived()}{Arrived()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_a_vector}{AVector}} AActor\+::\+Arrived (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_a_vector}{AVector}}}]{target }\end{DoxyParamCaption})}
+
+
+
+nos da la fuerza para moverme a un objeto con un frenado 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em \mbox{\hyperlink{class_a_vector}{AVector}}} & mi target a seguir \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_a_vector}{AVector}}\+: la fuerza de Arrived 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_a_actor_a97eaf7e79092c0e774f424ef7d1b44b0}\label{class_a_actor_a97eaf7e79092c0e774f424ef7d1b44b0}} 
+\index{AActor@{AActor}!Avoide@{Avoide}}
+\index{Avoide@{Avoide}!AActor@{AActor}}
+\doxysubsubsection{\texorpdfstring{Avoide()}{Avoide()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_a_vector}{AVector}} AActor\+::\+Avoide (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_a_vector}{AVector}}}]{target }\end{DoxyParamCaption})}
+
+
+
+funcion para de Avoide 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em \mbox{\hyperlink{class_a_vector}{AVector}}} & target \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_a_vector}{AVector}}\+: la fuerza de Avoide 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_a_actor_a03ace99fb36207311953d7ac14d3882e}\label{class_a_actor_a03ace99fb36207311953d7ac14d3882e}} 
+\index{AActor@{AActor}!flee@{flee}}
+\index{flee@{flee}!AActor@{AActor}}
+\doxysubsubsection{\texorpdfstring{flee()}{flee()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_a_vector}{AVector}} AActor\+::flee (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_a_vector}{AVector}}}]{target }\end{DoxyParamCaption})}
+
+
+
+esta funcion obtiene la fuerza de feek para alejarme de un objetivo 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em \mbox{\hyperlink{class_a_vector}{AVector}}} & mi target a huir \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_a_vector}{AVector}}\+: la fuerza de flee para mover al actor 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_a_actor_a3dc69f58c569895929a0c353fa10b66e}\label{class_a_actor_a3dc69f58c569895929a0c353fa10b66e}} 
+\index{AActor@{AActor}!FollowPath@{FollowPath}}
+\index{FollowPath@{FollowPath}!AActor@{AActor}}
+\doxysubsubsection{\texorpdfstring{FollowPath()}{FollowPath()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_a_vector}{AVector}} AActor\+::\+Follow\+Path (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{class_a_vector}{AVector}} $>$}]{m\+\_\+pointsto\+Follow }\end{DoxyParamCaption})}
+
+
+
+funcion para hacer el followpath de una serie de puntos 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em vector$<$\+Avector$>$} & lista de puntos a seguir \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_a_vector}{AVector}}\+: fuerza a seguir segun el punto 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_a_actor_a8d9b7e5ab7c9c2fd76ac87be6072c4a6}\label{class_a_actor_a8d9b7e5ab7c9c2fd76ac87be6072c4a6}} 
+\index{AActor@{AActor}!Purse@{Purse}}
+\index{Purse@{Purse}!AActor@{AActor}}
+\doxysubsubsection{\texorpdfstring{Purse()}{Purse()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_a_vector}{AVector}} AActor\+::\+Purse (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_a_vector}{AVector}}}]{target }\end{DoxyParamCaption})}
+
+
+
+fuerza de purse con respecto a un target 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em \mbox{\hyperlink{class_a_vector}{AVector}}} & target \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_a_vector}{AVector}}\+: la fuerza de purse 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_a_actor_a9e95ab2fb8dce2ea126b000e0eb4d20a}\label{class_a_actor_a9e95ab2fb8dce2ea126b000e0eb4d20a}} 
+\index{AActor@{AActor}!Render@{Render}}
+\index{Render@{Render}!AActor@{AActor}}
+\doxysubsubsection{\texorpdfstring{Render()}{Render()}}
+{\footnotesize\ttfamily void AActor\+::\+Render (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classsf_1_1_window}{sf\+::\+Window}} \&}]{window }\end{DoxyParamCaption})}
+
+
+
+Funcion de render. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em Window} & varible de la pantalla para dibujar en la clase. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_a_actor_a6dcd6105ef9d22b586d0ca929e3af652}\label{class_a_actor_a6dcd6105ef9d22b586d0ca929e3af652}} 
+\index{AActor@{AActor}!Seek@{Seek}}
+\index{Seek@{Seek}!AActor@{AActor}}
+\doxysubsubsection{\texorpdfstring{Seek()}{Seek()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_a_vector}{AVector}} AActor\+::\+Seek (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_a_vector}{AVector}}}]{target }\end{DoxyParamCaption})}
+
+
+
+esta funcion obtiene la fuerza de seek para moverme a un objetivo 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em \mbox{\hyperlink{class_a_vector}{AVector}}} & mi target a seguir \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_a_vector}{AVector}}\+: la fuerza de Seek para moverme 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_a_actor_a008825e1a0a3a279b66aa9f569e6f701}\label{class_a_actor_a008825e1a0a3a279b66aa9f569e6f701}} 
+\index{AActor@{AActor}!Update@{Update}}
+\index{Update@{Update}!AActor@{AActor}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void AActor\+::\+Update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_a_vector}{AVector}}}]{target,  }\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+
+
+funcion de Update. se actualizan todos los datos de las variables 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em \mbox{\hyperlink{class_a_vector}{AVector}}} & target para actualizar la posicion. \\
+\hline
+ & {\em float} & deltatime. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_a_actor_a224463143f84077876199e3d56317dbf}\label{class_a_actor_a224463143f84077876199e3d56317dbf}} 
+\index{AActor@{AActor}!Wander@{Wander}}
+\index{Wander@{Wander}!AActor@{AActor}}
+\doxysubsubsection{\texorpdfstring{Wander()}{Wander()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_a_vector}{AVector}} AActor\+::\+Wander (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_a_vector}{AVector}}}]{target }\end{DoxyParamCaption})}
+
+
+
+Esta funcion nos da la fuerza de wander. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em \mbox{\hyperlink{class_a_vector}{AVector}}} & mi target a seguir \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_a_vector}{AVector}}\+: la fuerza de wander 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Inteligencia\+Artificial/AActor.\+h\item 
+Inteligencia\+Artificial/AActor.\+cpp\end{DoxyCompactItemize}

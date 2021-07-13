@@ -1,0 +1,169 @@
+\hypertarget{class_manager_1_1_a_manger}{}\doxysection{Manager\+::AManger Class Reference}
+\label{class_manager_1_1_a_manger}\index{Manager::AManger@{Manager::AManger}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_manager_1_1_a_manger_a793904f8782983d21b2bd5a59cd88b65}{AManger}} ()
+\begin{DoxyCompactList}\small\item\em Constructor default del manager. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_manager_1_1_a_manger_a94c4b086e03530b7637eedd8c8ef9859}{Init}} ()
+\begin{DoxyCompactList}\small\item\em funcion de init donde se cargaran todos los datos del juego \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_manager_1_1_a_manger_a0e37f2bb40e1b460336d1f162ac1de63}{Game\+Loop}} ()
+\begin{DoxyCompactList}\small\item\em funcion del gameloop donde se repetira cada frame \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_manager_1_1_a_manger_a9fbe6558f0412e84f3e44969430de4d3}{Update}} ()
+\begin{DoxyCompactList}\small\item\em funcion de Update para atualizar datos \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_manager_1_1_a_manger_af2441cf1bca261f45cdf9322721fc05f}{Render}} ()
+\begin{DoxyCompactList}\small\item\em funcion de render para pintar en la pantalla \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_manager_1_1_a_manger_a27b1d453e5013e707288436b4a8b925a}{is\+Finish}} ()
+\begin{DoxyCompactList}\small\item\em funcion para saber si el juego termino y salir del gameloop \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_manager_1_1_a_manger_aea3043c63d7b37f942d3aec110509dfe}\label{class_manager_1_1_a_manger_aea3043c63d7b37f942d3aec110509dfe}} 
+\mbox{\hyperlink{classsf_1_1_render_window}{sf\+::\+Render\+Window}} $\ast$ \mbox{\hyperlink{class_manager_1_1_a_manger_aea3043c63d7b37f942d3aec110509dfe}{window}}
+\begin{DoxyCompactList}\small\item\em Brief variable de pantalla. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_manager_1_1_a_manger_a20259e402deb1b93efce5d7d0cd08309}\label{class_manager_1_1_a_manger_a20259e402deb1b93efce5d7d0cd08309}} 
+std\+::vector$<$ \mbox{\hyperlink{class_a_actor}{AActor}} $\ast$ $>$ \mbox{\hyperlink{class_manager_1_1_a_manger_a20259e402deb1b93efce5d7d0cd08309}{m\+\_\+actor}}
+\begin{DoxyCompactList}\small\item\em Brief vector de actores. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_manager_1_1_a_manger_a362e03b9202618d9a635361234958fa8}\label{class_manager_1_1_a_manger_a362e03b9202618d9a635361234958fa8}} 
+\mbox{\hyperlink{class_a_flag}{AFlag}} \mbox{\hyperlink{class_manager_1_1_a_manger_a362e03b9202618d9a635361234958fa8}{m\+\_\+bandera}}
+\begin{DoxyCompactList}\small\item\em Brief objeto bandera. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_manager_1_1_a_manger_abde6e85ffd351bba4a638d896fe809e4}\label{class_manager_1_1_a_manger_abde6e85ffd351bba4a638d896fe809e4}} 
+\mbox{\hyperlink{class_a_base}{ABase}} \mbox{\hyperlink{class_manager_1_1_a_manger_abde6e85ffd351bba4a638d896fe809e4}{m\+\_\+base\+Red}}
+\begin{DoxyCompactList}\small\item\em Brief objeto porteria de tipo rojo. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_manager_1_1_a_manger_a079ebabc7465f3a3647eb0b8f2a0ce89}\label{class_manager_1_1_a_manger_a079ebabc7465f3a3647eb0b8f2a0ce89}} 
+\mbox{\hyperlink{class_a_base}{ABase}} \mbox{\hyperlink{class_manager_1_1_a_manger_a079ebabc7465f3a3647eb0b8f2a0ce89}{m\+\_\+base\+Blue}}
+\begin{DoxyCompactList}\small\item\em Brief porteria de tipo azul. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_manager_1_1_a_manger_aca8c9bb979d6bc31b504fb44b6dd60fa}\label{class_manager_1_1_a_manger_aca8c9bb979d6bc31b504fb44b6dd60fa}} 
+\mbox{\hyperlink{classsf_1_1_clock}{sf\+::\+Clock}} \mbox{\hyperlink{class_manager_1_1_a_manger_aca8c9bb979d6bc31b504fb44b6dd60fa}{m\+\_\+clock}}
+\begin{DoxyCompactList}\small\item\em Brief clock para obtener el tiempo. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_manager_1_1_a_manger_a3990ff7aef5f549424634e061c88eaba}\label{class_manager_1_1_a_manger_a3990ff7aef5f549424634e061c88eaba}} 
+float \mbox{\hyperlink{class_manager_1_1_a_manger_a3990ff7aef5f549424634e061c88eaba}{m\+\_\+delta\+Time}} =0
+\begin{DoxyCompactList}\small\item\em Brief deltatime del juego. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_manager_1_1_a_manger_afb309175974a62b0038ba45a1c8126a1}\label{class_manager_1_1_a_manger_afb309175974a62b0038ba45a1c8126a1}} 
+std\+::vector$<$ \mbox{\hyperlink{class_a_vector}{AVector}} $>$ \mbox{\hyperlink{class_manager_1_1_a_manger_afb309175974a62b0038ba45a1c8126a1}{m\+\_\+pathtoplayer}}
+\begin{DoxyCompactList}\small\item\em Brief vector con diferentes puntos. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_manager_1_1_a_manger_a08eeab5cb8d32e110fd48a67b550cfed}\label{class_manager_1_1_a_manger_a08eeab5cb8d32e110fd48a67b550cfed}} 
+\mbox{\hyperlink{classsf_1_1_font}{sf\+::\+Font}} {\bfseries font}
+\item 
+\mbox{\Hypertarget{class_manager_1_1_a_manger_a34e552859d3cd08da279447e65c56fb9}\label{class_manager_1_1_a_manger_a34e552859d3cd08da279447e65c56fb9}} 
+\mbox{\hyperlink{classsf_1_1_text}{sf\+::\+Text}} {\bfseries puntajered}
+\item 
+\mbox{\Hypertarget{class_manager_1_1_a_manger_af43c4e6ce838d40df61a144c64a9402c}\label{class_manager_1_1_a_manger_af43c4e6ce838d40df61a144c64a9402c}} 
+\mbox{\hyperlink{classsf_1_1_text}{sf\+::\+Text}} {\bfseries puntajeblue}
+\item 
+\mbox{\Hypertarget{class_manager_1_1_a_manger_a5d83335dd17799d3e97af3d8a1bf04be}\label{class_manager_1_1_a_manger_a5d83335dd17799d3e97af3d8a1bf04be}} 
+\mbox{\hyperlink{classsf_1_1_text}{sf\+::\+Text}} {\bfseries win}
+\item 
+\mbox{\Hypertarget{class_manager_1_1_a_manger_a62b13538dc75e4780d3422db8ad41be4}\label{class_manager_1_1_a_manger_a62b13538dc75e4780d3422db8ad41be4}} 
+\mbox{\hyperlink{class_a_f_s_m}{AFSM}} $\ast$ {\bfseries m\+\_\+state\+Machine}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_manager_1_1_a_manger_a793904f8782983d21b2bd5a59cd88b65}\label{class_manager_1_1_a_manger_a793904f8782983d21b2bd5a59cd88b65}} 
+\index{Manager::AManger@{Manager::AManger}!AManger@{AManger}}
+\index{AManger@{AManger}!Manager::AManger@{Manager::AManger}}
+\doxysubsubsection{\texorpdfstring{AManger()}{AManger()}}
+{\footnotesize\ttfamily Manager\+::\+AManger\+::\+AManger (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor default del manager. 
+
+Construct for the class AManager.
+
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]No know Bugs \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_manager_1_1_a_manger_a0e37f2bb40e1b460336d1f162ac1de63}\label{class_manager_1_1_a_manger_a0e37f2bb40e1b460336d1f162ac1de63}} 
+\index{Manager::AManger@{Manager::AManger}!GameLoop@{GameLoop}}
+\index{GameLoop@{GameLoop}!Manager::AManger@{Manager::AManger}}
+\doxysubsubsection{\texorpdfstring{GameLoop()}{GameLoop()}}
+{\footnotesize\ttfamily void Manager\+::\+AManger\+::\+Game\+Loop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+funcion del gameloop donde se repetira cada frame 
+
+Game\+Loop make a render , update and poll events.
+
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000003}{Bug}}]No know Bugs \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+voids 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_manager_1_1_a_manger_a94c4b086e03530b7637eedd8c8ef9859}\label{class_manager_1_1_a_manger_a94c4b086e03530b7637eedd8c8ef9859}} 
+\index{Manager::AManger@{Manager::AManger}!Init@{Init}}
+\index{Init@{Init}!Manager::AManger@{Manager::AManger}}
+\doxysubsubsection{\texorpdfstring{Init()}{Init()}}
+{\footnotesize\ttfamily void Manager\+::\+AManger\+::\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+funcion de init donde se cargaran todos los datos del juego 
+
+Initialize all the variables important to game works!
+
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000002}{Bug}}]No know Bugs \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_manager_1_1_a_manger_a27b1d453e5013e707288436b4a8b925a}\label{class_manager_1_1_a_manger_a27b1d453e5013e707288436b4a8b925a}} 
+\index{Manager::AManger@{Manager::AManger}!isFinish@{isFinish}}
+\index{isFinish@{isFinish}!Manager::AManger@{Manager::AManger}}
+\doxysubsubsection{\texorpdfstring{isFinish()}{isFinish()}}
+{\footnotesize\ttfamily bool Manager\+::\+AManger\+::is\+Finish (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+funcion para saber si el juego termino y salir del gameloop 
+
+\begin{DoxyReturn}{Returns}
+\#bool\+: bandera que determina si ya se acabo el juego 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_manager_1_1_a_manger_af2441cf1bca261f45cdf9322721fc05f}\label{class_manager_1_1_a_manger_af2441cf1bca261f45cdf9322721fc05f}} 
+\index{Manager::AManger@{Manager::AManger}!Render@{Render}}
+\index{Render@{Render}!Manager::AManger@{Manager::AManger}}
+\doxysubsubsection{\texorpdfstring{Render()}{Render()}}
+{\footnotesize\ttfamily void Manager\+::\+AManger\+::\+Render (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+funcion de render para pintar en la pantalla 
+
+draw the all game
+
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000005}{Bug}}]No know Bugs \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_manager_1_1_a_manger_a9fbe6558f0412e84f3e44969430de4d3}\label{class_manager_1_1_a_manger_a9fbe6558f0412e84f3e44969430de4d3}} 
+\index{Manager::AManger@{Manager::AManger}!Update@{Update}}
+\index{Update@{Update}!Manager::AManger@{Manager::AManger}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Manager\+::\+AManger\+::\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+funcion de Update para atualizar datos 
+
+Update Variables in game.
+
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000004}{Bug}}]No know Bugs \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Inteligencia\+Artificial/AManger.\+h\item 
+Inteligencia\+Artificial/AManger.\+cpp\end{DoxyCompactItemize}
