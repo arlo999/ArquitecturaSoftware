@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>D:\git-arquitectura\ArquitecturaSoftware\AVector\Debug\VecGoogleTest.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="TestCaseName.TestName" Duration="1" />
+    <TestDuration Test="getTest.getx" Duration="1" />
+    <TestDuration Test="getTest.gety" Duration="1" />
+    <TestDuration Test="getTest.getz" Duration="1" />
+    <TestDuration Test="getTest.getm" Duration="1" />
+    <TestDuration Test="setVector.testsetVec" Duration="1" />
+    <TestDuration Test="Operadores.testSuma" Duration="1" />
+    <TestDuration Test="Operadores.testResta" Duration="1" />
+    <TestDuration Test="Operadores.testMulti" Duration="1" />
+    <TestDuration Test="Operadores.testigualacion" Duration="1" />
+    <TestDuration Test="Operadores.testsumaX" Duration="1" />
+    <TestDuration Test="proPunto.testProductoPunto" Duration="1" />
+    <TestDuration Test="ProductoCruz.testProductocruz" Duration="1" />
+    <TestDuration Test="magnitude.testMagnitude" Duration="1" />
+    <TestDuration Test="normalize.testNormalize" Duration="1" />
+    <TestDuration Test="quickReverseSqrt2.testQuickReverse" Duration="1" />
+    <TestDuration Test="setVector.setY" Duration="1" />
+    <TestDuration Test="Operadores.testsumaY" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>
